@@ -1030,8 +1030,8 @@ class _ImagePickerState extends State<ImagePicker>
                           child: Image.memory(thumbnail, fit: BoxFit.cover)),
                       title: Text(album.name,
                           style: const TextStyle(color: Colors.white)),
-                      subtitle: Text(album.assetCount.toString(),
-                          style: const TextStyle(color: Colors.grey)),
+                      // subtitle: Text(album.assetCount.toString(),
+                      //     style: const TextStyle(color: Colors.grey)),
                       onTap: () async {
                         callback.call(album);
                       }),
