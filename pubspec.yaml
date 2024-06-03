@@ -12,7 +12,10 @@ dependencies:
   camera: ^0.11.0+1
   flutter:
     sdk: flutter
-  flutter_native_image: ^0.0.6+1
+  flutter_native_image:
+    git:
+      url: https://github.com/btastic/flutter_native_image.git
+      ref: b2879b3b41982ebb35d04f43ae6808b6d6d9e5dd
   image: ^4.2.0
   image_cropper: ^6.0.0
   image_editor: ^1.5.1
